@@ -2,8 +2,9 @@ package com.example.demo.dto;
 
 import java.time.LocalDateTime;
 
+
 public class UserDTO {
-    private Long id;
+    private Integer id;
     private String username;
     private String password;
     private LocalDateTime created_at;
@@ -11,11 +12,11 @@ public class UserDTO {
     private boolean enabled;
     private String role;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
